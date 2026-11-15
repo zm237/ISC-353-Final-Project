@@ -1,11 +1,19 @@
 # ISC-353-Final-Project
-This repo will contain the code for a multimodal emotional classification model.
 
+## Data Download Links
+
+Audio (data.zip): https://drive.google.com/file/d/1vjsIllhIQK4jIj23_8Lkm9xBturPnAr2/view?usp=sharing
+Video (archive.zip): https://www.kaggle.com/datasets/stefanogiannini/crema-d-video
+
+## Initial Setup
+
+Download the datasets below and place the zip and tar.gz in the root project directory before running the setup script.
 
 ## What to Run
 
-model.py: This is the model
-extract_features_fast.py: This is the data preprocessor
+1. setup.sh: Run this first to setup the venv and dependencies.
+2. extract_features_fast.py: This is the data preprocessor.
+3. model.py: This is the model.
 
 ## Directory Structure
 
@@ -22,13 +30,7 @@ extract_features_fast.py: This is the data preprocessor
     README.md
     requirements.txt
 
-
-## Data Download Links
-
-Audio (data.zip): https://drive.google.com/file/d/1vjsIllhIQK4jIj23_8Lkm9xBturPnAr2/view?usp=sharing
-Video (archive.zip): https://www.kaggle.com/datasets/stefanogiannini/crema-d-video
-
-## Results
+## Results (Expected)
 
 ==================================================================
 Starting 5-Fold GroupKFold Cross-Validation on CREMA-D (7441 samples)
